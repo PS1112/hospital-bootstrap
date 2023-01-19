@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/header';
+import Footer from './components/footer';
+import About_us from './components/about_us';
+import Departments from './components/departments';
+import Home from './components/home';
+import Services from'./components/services';
+import Appointment_form from './components/appointment_form';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/js/bootstrap.min.js";
+import './styles/App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <>
+      <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='about_us' element={<About_us/>}/>
+        <Route path='departments' element={<Departments/>}/>
+        <Route path='services' element={<Services/>}/>
+        <Route path='appointment_form' element={<Appointment_form/>}/>
+      </Routes>
+      <Footer/>
+      </BrowserRouter>
+        
+      </>
+    )
+  }
 }
-
-export default App;

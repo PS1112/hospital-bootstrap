@@ -1,0 +1,149 @@
+/* responsive styling for home component */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#handmadecaraousel{
+    height: 30rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    animation-name:img ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: linear;
+
+}
+@keyframes img {
+    0%{
+        background-image: url('../images/first.jpeg');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url('../images/second.jpeg');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url('../images/third.jpg');
+        background-size: cover;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url('../images/fourth.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url('../images/fifth.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    
+}
+#slogan{
+    width: 70%;
+    height: 25rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.71);
+    border-radius: 2rem;
+}
+#slogan #slogan_title{
+    font-weight: 700;
+    color: white;
+}
+#slogan #phrase{
+    font-weight: 500;
+    color: white;
+}
+#btn_1{
+    background-color:#00ff7e !important;
+    color: white !important;
+    border: white 2px solid !important;
+}
+#btn_2{
+    background-color:#00ff7e !important;
+    color: white !important;
+    border: white 2px solid !important;
+}
+#control_btn a{
+    text-decoration: none !important;
+    color: white !important;
+    font-weight: 500;
+}
+#about{
+    width: 100%;
+    height: 20rem;
+    background-color: #00ff8033;
+    margin-top: 3rem;
+}
+#video{
+    height: 20rem;
+    float: left;
+    /* background: url('../videos/about_video.mp4'); */
+}
+#about_text{
+    height: 20rem;
+    float: right;
+    padding: 1% 2% 0 2%;
+}
+#floater{
+    z-index: 1;
+    height: 6rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+#floater #btn {
+    text-decoration: none !important;
+    background-color: #00ff7e !important;
+    color:#fff !important;
+    border: none !important;
+}
+#floater #btn:hover{
+    color: #00ff7e !important;
+    background-color:#fff !important;
+    border: 1px solid #00ff7e !important;
+}
+#floater #btn a{
+    text-decoration: none !important;
+    color: inherit;
+}
+#services_info{
+    margin-top: 4rem;
+    width: 100%;
+    height: 25rem;
+    background-color: #00ff8033;
+}
+
+#query{
+    width: 100%;
+    height: 10rem;
+    background-color: #00ff7e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2% 0 2%;
+
+}

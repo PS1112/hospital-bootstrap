@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name":"ICU",
+        "price":500,
+        "description":"The Intensive Care Unit (ICU) is a separate, self-contained area within a medical facility, equipped with high-tech specialised facilities designed for close monitoring, rapid intervention and often extended treatment of patients with acute organ dysfunction.",
+        "image":"./images/icu.jpg"
+    },
+    {
+        "id":2,
+        "name":"ENT",
+        "price":500,
+        "description":"ENTs deal with anything that has to do with the head, neck, and ears in adults and children.",
+        "image":"./images/ent.jpeg"
+    },
+    {
+        "id":3,
+        "name":"vaccinations",
+        "price":"Free",
+        "description":"Vaccination is the administration of a vaccine to help the immune system develop immunity from a disease.",
+        "image":"./images/vaccination.jpeg"
+    },
+    {
+        "id":4,
+        "name":"Medical Dressage",
+        "price":500,
+        "description":"The objective of dressing wounds is to promote healing. The procedure includes cleaning, disinfection and protection of the wound while respecting the rules of hygiene.",
+        "image":"./images/medical_dressing.jpeg"
+    },
+    {
+        "id":5,
+        "name":"Laboratory",
+        "price":500,
+        "description":"healthcare facilities providing a wide range of laboratory procedures which aid the physicians in carrying out the diagnosis, treatment, and management of patients.",
+        "image":"./images/laboratory.jpeg"
+    }
+]
