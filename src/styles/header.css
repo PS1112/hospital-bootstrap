@@ -11,7 +11,7 @@
   #details{
     height: 2rem;
     background-color: white;
-    color: #00ff7e;
+    color: #82c1bb;
     font-size: 1rem;
     font-weight: 600;
     display: flex;
@@ -21,7 +21,7 @@
   header{
     width: 100%;
     height: 8rem;
-    background-color: #00ff7e;
+    background-color: #82c1bb;
     }
   #title{
     float: left;
@@ -62,7 +62,7 @@
     text-decoration: none !important;
     }
   #navbar li a:hover {
-    color: #00ff7e !important;
+    color: #82c1bb !important;
     background-color:white !important;
     border-radius: 10px;
   }   
@@ -73,7 +73,7 @@
   #details{
     height: 2rem;
     background-color: white;
-    color: #00ff7e;
+    color: #82c1bb;
     font-size: 1rem;
     font-weight: 600;
     display: flex;
@@ -83,7 +83,7 @@
   header{
     width: 100%;
     height: 8rem;
-    background-color: #00ff7e;
+    background-color:#82c1bb;
     }
   #title{
     float: left;
@@ -124,7 +124,7 @@
     text-decoration: none !important;
     }
   #navbar li a:hover {
-    color: #00ff7e !important;
+    color: #82c1bb !important;
     background-color:white !important;
     border-radius: 10px;
     } 
@@ -134,7 +134,7 @@
   #details{
     height: 2rem;
     background-color: white;
-    color: #00ff7e;
+    color: #82c1bb;
     font-size: 1rem;
     font-weight: 600;
     display: flex;
@@ -144,7 +144,7 @@
   header{
     width: 100%;
     height: 8rem;
-    background-color: #00ff7e;
+    background-color:#82c1bb;
     }
   #title{
     float: left;
@@ -185,7 +185,7 @@
     text-decoration: none !important;
     }
   #navbar li a:hover {
-    color: #00ff7e !important;
+    color: #82c1bb !important;
     background-color:white !important;
     border-radius: 10px;
     } 
@@ -195,7 +195,7 @@
   #details{
     height: 2rem;
     background-color: white;
-    color: #00ff7e;
+    color: #82c1bb;
     font-size: 1rem;
     font-weight: 600;
     display: flex;
@@ -205,7 +205,7 @@
   header{
     width: 100%;
     height: 8rem;
-    background-color: #00ff7e;  
+    background-color: #82c1bb;  
   }
   #title{
     float: left;
@@ -246,7 +246,7 @@
     text-decoration: none !important;
     }
   #navbar li a:hover {
-    color: #00ff7e !important;
+    color: #82c1bb !important;
     background-color: white !important;
     border-radius: 10px;
     } 
@@ -256,7 +256,7 @@
   #details{
     height: 1rem;
     background-color: white;
-    color: #00ff7e;
+    color: #82c1bb;
     font-size: 0.5rem;
     font-weight: 600;
     display: flex;
@@ -266,7 +266,7 @@
   header{
     width: 100%;
     height: 5rem;
-    background-color: #00ff7e;
+    background-color: #82c1bb;
     }
   #title{
     float: left;
@@ -309,7 +309,7 @@
     text-decoration: none !important;
     }
    #navbar li a:hover {
-    color: #00ff7e !important;
+    color: #82c1bb !important;
     background-color:white !important;
     border-radius: 10px;
     } 
