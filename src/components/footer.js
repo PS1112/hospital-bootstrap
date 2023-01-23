@@ -5,9 +5,8 @@ export default function Footer() {
   return (
   <>
   <footer id='footer' className='col-xs-12 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
-<div id='row1' className='col-xs-12 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+<div id='row1' className='col-xs-6 col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6'>
   <h3>Our Doctors</h3>
-  <br/>
   <br/>
   <ul type='square'>
   <li>&nbsp;Dr&nbsp;Awadesh&nbsp;Tripathi&nbsp;</li>
@@ -17,7 +16,7 @@ export default function Footer() {
   <li>&nbsp;Dr&nbsp;Bhushan&nbsp;Mittal&nbsp;</li>
   </ul>
 </div>
-<div id='row2' className='col-xs-12 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+<div id='row2' className='col-xs-6 col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6'>
   <h3>Opening Hours</h3>
   <br/>
   <ul type='squaare'>

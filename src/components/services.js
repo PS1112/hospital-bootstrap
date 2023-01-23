@@ -10,8 +10,12 @@ export default class services extends Component {
   render() {
     return (
       <>
+      <div className='container'>
       <div id='parent'>
-        <Facilities keyfacilities={this.state.all_facilities}/>
+        
+          <Facilities keyfacilities={this.state.all_facilities}/>
+        </div>
+        
       
     </div>
     </>

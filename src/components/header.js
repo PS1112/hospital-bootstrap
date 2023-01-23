@@ -8,7 +8,7 @@ export default function Header() {
     <div id='details' className='col-xs-12 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
     Contact Us +91 0123456789 | sp@hospital.com&nbsp;&nbsp;&nbsp;
     </div>
-    <header>
+    <header id='header' className='sticky-top'>
       <div id='title'>
         <Link to="/">
         <span id='span1' className='h1'>SP&nbsp;Hospital</span>

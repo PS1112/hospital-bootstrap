@@ -4,34 +4,34 @@
         "name":"ICU",
         "price":500,
         "description":"The Intensive Care Unit (ICU) is a separate, self-contained area within a medical facility, equipped with high-tech specialised facilities designed for close monitoring, rapid intervention and often extended treatment of patients with acute organ dysfunction.",
-        "image":"./images/icu.jpg"
+        "image":"https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8SUNVfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
         "id":2,
         "name":"ENT",
         "price":500,
         "description":"ENTs deal with anything that has to do with the head, neck, and ears in adults and children.",
-        "image":"./images/ent.jpeg"
+        "image":"https://media.istockphoto.com/id/1368169092/photo/female-pediatrician-looking-at-ear-of-little-girl-using-otoscope-in-clinic.jpg?b=1&s=170667a&w=0&k=20&c=DC-vf-lYOC99rREVJmxIjTiWNaTVHuPIpIXjaEQL8eY="
     },
     {
         "id":3,
         "name":"vaccinations",
         "price":"Free",
         "description":"Vaccination is the administration of a vaccine to help the immune system develop immunity from a disease.",
-        "image":"./images/vaccination.jpeg"
+        "image":"https://media.istockphoto.com/id/1330757383/photo/vaccination-clinic.jpg?b=1&s=170667a&w=0&k=20&c=864KagK3vnMuA7yjHSIhzg5r_cyy8_91NQRlBxZMs88="
     },
     {
         "id":4,
         "name":"Medical Dressage",
         "price":500,
         "description":"The objective of dressing wounds is to promote healing. The procedure includes cleaning, disinfection and protection of the wound while respecting the rules of hygiene.",
-        "image":"./images/medical_dressing.jpeg"
+        "image":"https://media.istockphoto.com/id/1150871809/photo/doctor-putting-bandage-on-patients-hand.jpg?b=1&s=170667a&w=0&k=20&c=hYfbYywAnIxAV9Vm2OcYRHEgPS3wKECQvVEEmURf_dc="
     },
     {
         "id":5,
         "name":"Laboratory",
         "price":500,
         "description":"healthcare facilities providing a wide range of laboratory procedures which aid the physicians in carrying out the diagnosis, treatment, and management of patients.",
-        "image":"./images/laboratory.jpeg"
+        "image":"https://images.unsplash.com/photo-1657778752032-6cfb715e616d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGxhYm9yYXRvcnl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
     }
 ]
