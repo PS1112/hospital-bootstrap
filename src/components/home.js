@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import '../styles/home.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
@@ -7,9 +7,22 @@ import ent from '../images/ent.jpeg';
 import vaccination from '../images/vaccination.jpeg'
 import video from '../videos/about_video.mp4'
 import { Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 export default function Home() {
   AOS.init()
+     
+  const navigate = useNavigate();
+  useEffect(()=>{
+      const authToken = sessionStorage.getItem('Auth Token')
+
+      if (authToken){
+          navigate('/Home')
+      }
+      if (!authToken) {
+          navigate('/')
+      }
+  },[])
+ 
   return (
     <>
 

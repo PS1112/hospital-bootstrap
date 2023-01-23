@@ -5,9 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-@media (max-width: 5000px)
-{
   #details{
     height: 2rem;
     background-color: white;
@@ -21,297 +18,61 @@
   #header{
     width: 100%;
     height: 8rem;
-    background-color: #82c1bb;
+    background-color: #82c1bb !important;
     }
-  #title{
-    float: left;
-    display: flex;
-    width: 40%;
-    height: 8rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem !important;
+#nav_title{
+  color: #fff;
+}
+#offcanvasNavbarLabel span{
+  color: #82c1bb;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+#toggled_nav span{
+  color: #82c1bb;
+  font-size: 2rem;
+  font-weight: 500;
+}
+#btn{
+  background-color: #fff;
+}
+#btn:hover{
+  background-color: #ff0000 !important;
+}
+@media (max-width:5000px) {
+  #nav_title{
+    font-size: 4rem;
+  }
   
-    }
-  #title #span1{
-    font-weight: 700;
-  }
-  #title #span2{
-    font-weight: 700;
-  }
-  #title a{
-    text-decoration: none !important;
-    color: white !important;
-  }
-  #navbar{
-    float: right;
-    width: 60%;
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem !important;
-    }
-  #navbar li{
-    list-style: none !important;
-    font-size: 1.5rem;
-    font-weight: 500;
-    }
-  #navbar li a {
-    color: white!important;
-    text-decoration: none !important;
-    }
-  #navbar li a:hover {
-    color: #82c1bb !important;
-    background-color:white !important;
-    border-radius: 10px;
-  }   
 }
-
-@media (max-width: 1200px)
-{
-  #details{
-    height: 2rem;
-    background-color: white;
-    color: #82c1bb;
-    font-size: 1rem;
-    font-weight: 600;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+@media (max-width: 1200px) {
+  #nav_title{
+    font-size: 4rem;
   }
-  #header{
-    width: 100%;
-    height: 8rem;
-    background-color:#82c1bb;
-    }
-  #title{
-    float: left;
-    display: flex;
-    width: 40%;
-    height: 8rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem !important;
-    color: white;
-    }
-  #title #span1{
-    font-weight: 700;
-  }
-  #title #span2{
-    font-weight: 700;
-  }
-  #title a{
-    text-decoration: none !important;
-    color: white !important;
-  }
-  #navbar{
-    float: right;
-    width: 60%;
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem !important;
-    }
-  #navbar li{
-    list-style: none !important;
-    font-size: 1.5rem;
-    font-weight: 500;
-    }
-  #navbar li a {
-    color: white !important;
-    text-decoration: none !important;
-    }
-  #navbar li a:hover {
-    color: #82c1bb !important;
-    background-color:white !important;
-    border-radius: 10px;
-    } 
 }
-@media (max-width: 992px)
-{
-  #details{
-    height: 2rem;
-    background-color: white;
-    color: #82c1bb;
-    font-size: 1rem;
-    font-weight: 600;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+@media (max-width: 1200px) {
+  #nav_title{
+    font-size: 4rem;
   }
-  #header{
-    width: 100%;
-    height: 8rem;
-    background-color:#82c1bb;
-    }
-  #title{
-    float: left;
-    display: flex;
-    width: 40%;
-    height: 8rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem !important;
-    color: white;
-    }
-  #title #span1{
-    font-weight: 700;
-  }
-  #title #span2{
-    font-weight: 700;
-  }
-  #title a{
-    text-decoration: none !important;
-    color: white !important;
-  }
-  #navbar{
-    float: right;
-    width: 60%;
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem !important;
-    }
-  #navbar li{
-    list-style: none !important;
-    font-size: 1.1rem;
-    font-weight: 500;
-    }
-  #navbar li a {
-    color: white !important;
-    text-decoration: none !important;
-    }
-  #navbar li a:hover {
-    color: #82c1bb !important;
-    background-color:white !important;
-    border-radius: 10px;
-    } 
 }
-@media (max-width: 768px)
-{
-  #details{
-    height: 2rem;
-    background-color: white;
-    color: #82c1bb;
-    font-size: 1rem;
-    font-weight: 600;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+@media (max-width: 992px) {
+  #nav_title{
+    font-size: 4rem;
   }
-  #header{
-    width: 100%;
-    height: 8rem;
-    background-color: #82c1bb;  
-  }
-  #title{
-    float: left;
-    display: flex;
-    width: 40%;
-    height: 8rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem !important;
-    color: white;
-    }
-  #title #span1{
-    font-weight: 700;
-  }
-  #title #span2{
-    font-weight: 700;
-  }
-  #title a{
-    text-decoration: none !important;
-    color: white !important;
-  }
-  #navbar{
-    float: right;
-    width: 60%;
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem !important;
-    }
-  #navbar li{
-    list-style: none !important;
-    font-size: 1.1rem;
-    font-weight: 500;
-    }
-  #navbar li a {
-    color: white!important;
-    text-decoration: none !important;
-    }
-  #navbar li a:hover {
-    color: #82c1bb !important;
-    background-color: white !important;
-    border-radius: 10px;
-    } 
 }
-@media (max-width:576px) 
-{
-  #details{
-    height: 1rem;
-    background-color: white;
-    color: #82c1bb;
-    font-size: 0.5rem;
-    font-weight: 600;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+@media (max-width: 768px) {
+  #nav_title{
+    font-size: 4.5rem;
   }
-  #header{
-    width: 100%;
-    height: 5rem;
-    background-color: #82c1bb;
-    }
-  #title{
-    float: left;
-    display: flex;
-    width: 30%;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0 !important;
-    color: white;
-    }
-  #title #span1{
-    font-weight: 700;
-    font-size: 1rem !important;
+}
+@media (max-width: 576px) {
+  #nav_title{
+    font-size: 3rem;
   }
-  #title #span2{
-    font-weight: 700;
-    font-size: 1rem !important;
-  }
-  #title a{
-    text-decoration: none !important;
-    color: white !important;
-  }
-  #navbar{
-    float: right;
-    width: 70%;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem !important;
-    }
-  #navbar li{
-    list-style: none !important;
-    font-size: 0.5rem;
-    font-weight: 500;
-    }
-  #navbar li a {
-    color: white !important;
-    text-decoration: none !important;
-    }
-   #navbar li a:hover {
-    color: #82c1bb !important;
-    background-color:white !important;
-    border-radius: 10px;
-    } 
+}
+@media (max-width:350px){
+   #nav_title{
+  font-size: 2.5rem;
+} 
   
 }
