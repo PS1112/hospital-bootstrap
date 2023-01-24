@@ -42,7 +42,7 @@ export default function Home() {
     data-aos-delay="30"
     data-aos-duration="400"
     data-aos-easing="ease-in-out" >
- <div className='container'>
+ <div className='container row'>
   <div id='video' className='col-xs-12 col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 d-flex justify-content-center'>
     <video src={video} width='90%' height='100%'  autoPlay loop/>
   </div>
@@ -57,15 +57,20 @@ export default function Home() {
   </div>
   </div>
 </div>
-<div id='services_info' className='row justify-content-center'>
+<div id='services_info' className=' justify-content-center'
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="30"
+    data-aos-duration="400"
+    data-aos-easing="ease-in-out" >
   {/* card-1 */}
   <div className='col-lg-4'>
             <div className='card mb-md-0 mb-3'>
-              <a href='#'><img src={icu} alt='' height={350} width={250} className='card-img-top'/></a>
-              <div id='card_body' className='card-body py-4'>
+              <img src={icu} alt='' height={350} width={250} className='card-img-top'/>
+              <div id='card_body' className='card-body py-3'>
                 <strong className='mb-2 d-block'>ICU</strong>
                 <div className='mb-4'>
-                  <p className='text-justify'>The Intensive Care Unit (ICU) is a separate, self-contained area within a medical facility, equipped with high-tech specialised facilities designed for close monitoring, rapid intervention and often extended treatment of patients with acute organ dysfunction.</p>
+                  <p className='text-justify'>The Intensive Care Unit (ICU) is a separate, self-contained area within a medical facility.</p>
                 </div>
               </div>
             </div>
@@ -74,8 +79,8 @@ export default function Home() {
           {/* card-2 */}
           <div className='col-lg-4'>
             <div className='card mb-md-0 mb-3'>
-              <a href='#'><img src={ent} alt='' height={350} width={250} className='card-img-top'/></a>
-              <div id='card_body' className='card-body py-4'>
+              <img src={ent} alt='' height={350} width={250} className='card-img-top'/>
+              <div id='card_body' className='card-body py-3'>
                 <strong className='mb-2 d-block'>ENT</strong>
                 <div className='mb-4'>
                   <p className='text-justify'>ENTs deal with anything that has to do with the head, neck, and ears in adults and children.</p>
@@ -87,8 +92,8 @@ export default function Home() {
           {/* card-3 */}
           <div className='col-lg-4'>
             <div className='card mb-md-0 mb-3'>
-              <a href='#'><img src={vaccination} alt='' height={350} width={250} className='card-img-top'/></a>
-              <div id='card_body' className='card-body py-4'>
+              <img src={vaccination} alt='' height={350} width={250} className='card-img-top'/>
+              <div id='card_body' className='card-body py-3'>
                 <strong className='mb-2 d-block'>Vaccination</strong>
                 <div className='mb-4'>
                   <p className='text-justify'>Vaccination is the administration of a vaccine to help the immune system develop immunity from a disease.</p>

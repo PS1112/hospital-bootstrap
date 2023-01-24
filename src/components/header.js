@@ -32,7 +32,7 @@ export default function Header() {
       <div className="offcanvas-body">
         <ul id='toggled_nav' className="navbar-nav justify-content-end flex-grow-1 pe-3 ">
           <li className="nav-item pb-3 ">
-          <Link to="/"><span>&nbsp;&nbsp;Home&nbsp;&nbsp;</span></Link>
+          <Link to="home"><span>&nbsp;&nbsp;Home&nbsp;&nbsp;</span></Link>
           </li>
           <li className="nav-item pb-3">
           <Link to="departments"><span>&nbsp;&nbsp;Departments&nbsp;&nbsp;</span></Link>

@@ -77,15 +77,16 @@ export default function App() {
                                 setEmail={setEmail}
                                 setPassword={setPassword}
                                 handleAction={()=>handleAction(2)}/>}/>
-        <Route path='home' element={<Home/>}/>
-        <Route path='about_us' element={<About_us/>}/>
-        <Route path='departments' element={<Departments/>}/>
-        <Route path='services' element={<Services/>}/>
+      <Route path='home' element={<Home/>}/>
+      <Route path='about_us' element={<About_us/>}/>
+      <Route path='departments' element={<Departments/>}/>
+      <Route path='services' element={<Services/>}/>
+      <Route path='home/about_us' element={<About_us/>}/>
+      <Route path='home/services' element={<Services/>}/>
       </Routes>
 {
  authToken ? <Footer/>:<></> 
-}      
-      
+}         
       </>
     )
 }

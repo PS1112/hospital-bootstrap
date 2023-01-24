@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+}
+#heading{
+    font-size: 4rem ;
+    font-weight: 600;
+    color: #000;
+}
+#form #label{
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #000;
+}
+#btnbtn{
+    font-size: 1rem;
+    font-weight: 500;
+}
+#btn_text{
+    font-size: 1rem;
+    font-weight: 500;
+}

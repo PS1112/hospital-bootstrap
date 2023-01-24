@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#child{
+    display: flex;
+    height: 15rem;
+    align-items: center;
+}
+#location{
+    display: flex;
+    flex-direction: column;
+}
+#phone{
+    display: flex;
+    flex-direction: column;
+}
+#mail{
+    display: flex;
+    flex-direction: column;
+}
+#map{
+    width: 100vw;
+}
