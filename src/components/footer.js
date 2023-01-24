@@ -9,24 +9,24 @@ export default function Footer() {
   <h3>Our Doctors</h3>
   <br/>
   <ul type='square'>
-  <li>&nbsp;Dr&nbsp;Awadesh&nbsp;Tripathi&nbsp;</li>
-  <li>&nbsp;Dr&nbsp;Karuna&nbsp;</li>
-  <li>&nbsp;Dr&nbsp;KVS&nbsp;Rana&nbsp;</li>
-  <li>&nbsp;Dr&nbsp;Yashlesh&nbsp;Tyagi&nbsp;</li>
-  <li>&nbsp;Dr&nbsp;Bhushan&nbsp;Mittal&nbsp;</li>
+  <li> Dr Awadesh Tripathi </li>
+  <li> Dr Karuna </li>
+  <li> Dr KVS Rana </li>
+  <li> Dr Yashlesh Tyagi </li>
+  <li> Dr Bhushan Mittal</li>
   </ul>
 </div>
 <div id='row2' className='col-xs-6 col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6'>
   <h3>Opening Hours</h3>
   <br/>
   <ul type='squaare'>
-  <li>Mon&nbsp;:&nbsp;9:00&nbsp;AM&nbsp;-&nbsp;11:30&nbsp;PM&nbsp;</li>
-  <li>Tue&nbsp;:&nbsp;9:00&nbsp;AM&nbsp;-&nbsp;11:30&nbsp;PM&nbsp;</li>
-  <li>Wed&nbsp;:&nbsp;9:00&nbsp;AM&nbsp;-&nbsp;11:30&nbsp;PM&nbsp;</li>
-  <li>Thu&nbsp;:&nbsp;9:00&nbsp;AM&nbsp;-&nbsp;11:30&nbsp;PM&nbsp;</li>
-  <li>Fri&nbsp;:&nbsp;9:00&nbsp;AM&nbsp;-&nbsp;11:30&nbsp;PM&nbsp;</li>
-  <li>Sat&nbsp;:&nbsp;9:00&nbsp;AM&nbsp;-&nbsp;11:30&nbsp;PM&nbsp;</li>
-  <li>Sun&nbsp;:&nbsp;9:00&nbsp;AM&nbsp;-&nbsp;11:30&nbsp;PM&nbsp;</li>
+  <li>Mon : 9:00 AM - 11:30 PM </li>
+  <li>Tue : 9:00 AM - 11:30 PM </li>
+  <li>Wed : 9:00 AM - 11:30 PM </li>
+  <li>Thu : 9:00 AM - 11:30 PM </li>
+  <li>Fri : 9:00 AM - 11:30 PM </li>
+  <li>Sat : 9:00 AM - 11:30 PM </li>
+  <li>Sun : 9:00 AM - 11:30 PM </li>
   </ul>
 </div>
   </footer>

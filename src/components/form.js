@@ -5,8 +5,9 @@ import '../styles/form.css'
 
 export default function AuthForm({title,setPassword,setEmail,handleAction}) {
   return (
-    <div className='d-flex flex-column justify-content-center align-items-center 'id='container'>
-    <div id='form'>
+      <div id='parent' className='row justify-content-center align-items-center div-center'>
+          <div className='col-10 col-sm-10 col-md-8 col-lg-4 col-xl-4'>
+    <div id='form' >
         <p id='heading'> {title} </p>
     <Form.Group className="mb-3" controlId="formBasicEmail">
       <Form.Label id='label'>Email address</Form.Label>
@@ -26,5 +27,6 @@ export default function AuthForm({title,setPassword,setEmail,handleAction}) {
     </Form.Text>
     </div> 
     </div>
-  )
+    </div>
+)
 }

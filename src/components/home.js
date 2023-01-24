@@ -32,37 +32,37 @@ export default function Home() {
   <span id='phrase' className='h4'>Creating healthy tomorrows...<br/> and better today....</span>
   <div id='control_btn'><Button id="btn_1"><Link to="services">view services</Link></Button> 
   &nbsp;&nbsp;
-  <Button id="btn_2"><Link to="appointment_form">Appointment form</Link></Button></div>
+  <Button id="btn_2">Appointment form</Button></div>
 </div>
 </div>
-
-<div id='about' className='col-xs-12 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'
+{/*  */}
+<div id='about' className='row justify-content-center align-items-center'
     data-aos="fade-up"
     data-aos-offset="200"
     data-aos-delay="30"
     data-aos-duration="400"
     data-aos-easing="ease-in-out" >
- <div className='container row'>
-  <div id='video' className='col-xs-12 col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 d-flex justify-content-center'>
-    <video src={video} width='90%' height='100%'  autoPlay loop/>
+  <div id='video' className='col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 '>
+    <video  src={video} width='90%' height='100%'  autoPlay loop/>
   </div>
-  <div id='about_text' className='col-xs-12 col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7'>
-   <span className='h1'> About&nbsp;SP&nbsp;Hospital</span>
+  <div id='about_text' className='col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7'>
+   <p className='h1'> About&nbsp;SP&nbsp;Hospital</p>
    <br/>
    <br/>
-   <span className='h5' style={{"color": "red !important"}}>A Multi speciality Speciality Hospital, SP Hospital provides a comprehensive range of services to ensure that all of the patients get the high quality care they deserve. We have all the specialists under one roof.</span>
-   <div id='floater' className='col-xs-12 col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7'>
-    <Button id='btn'><Link to='about_us'>Read more</Link></Button>
-   </div>
+   <p className='h5'>A Multi speciality Speciality Hospital, SP Hospital provides a comprehensive range<br/> of services to ensure that all of the patients get the high quality care they deserve.<br/> We have all the specialists under one roof.</p>
+  <br/>
+  <br/>
+  <Button id='btn'><Link to='about_us'>Read more</Link></Button>
   </div>
   </div>
-</div>
-<div id='services_info' className=' justify-content-center'
+  {/*  */}
+<div id='services_info' className=' row justify-content-center align-items-center'
     data-aos="fade-up"
     data-aos-offset="200"
     data-aos-delay="30"
     data-aos-duration="400"
     data-aos-easing="ease-in-out" >
+      <div className='container'>
   {/* card-1 */}
   <div className='col-lg-4'>
             <div className='card mb-md-0 mb-3'>
@@ -101,8 +101,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          
+          </div>     
         </div>
 <div id='query' className='col-xs-12 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
 <span className='h1'>Have any question or need any consultation? </span>
