@@ -10,10 +10,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 #facilities p{
-    color: #000 !important;
+    color: #1ab7a8 !important;
 }
 #facilities #card{
     display: flex;
@@ -21,4 +22,5 @@
     align-items: center;
     width: 30%;
     height: 30%;
+    border-radius: 2rem;
 }

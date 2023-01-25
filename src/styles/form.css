@@ -11,7 +11,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-#parent{
+#parent_form{
     background: url('../images/form_bg.jpg');
     background-size: cover;
     background-position: 50% 50%;

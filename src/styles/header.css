@@ -33,6 +33,12 @@
   font-size: 2rem;
   font-weight: 500;
 }
+#offcanvasNavbarLabel #span{
+  color: #82c1bb;
+  font-size: 3rem;
+  font-weight: 500;
+  text-decoration: underline !important;  
+}
 #btn{
   background-color: #fff;
 }

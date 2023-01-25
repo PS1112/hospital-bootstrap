@@ -83,7 +83,7 @@ export default function App() {
       <Route path='services' element={<Services/>}/>
       <Route path='home/about_us' element={<About_us/>}/>
       <Route path='home/services' element={<Services/>}/>
-      </Routes>
+    </Routes>
 {
  authToken ? <Footer/>:<></> 
 }         

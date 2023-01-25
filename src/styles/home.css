@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-#handmadecaraousel{
-    height: 30rem;
+#self_made_caraousel{
+    height: 40rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,13 +119,25 @@
 #services_info {
     margin-top: 4rem;
     background-color: #82c1bb;
-    display: flex;
-    align-items: center;
 }
 #services_info #card_body{
     background-color: #82c1bb;
 }
-
+#services_info #btn{
+    text-decoration: none !important;
+    background-color: #82c1bb !important;
+    color:#fff !important;
+    border: 2px solid white!important
+}
+#services_info #btn:hover{
+    color: #82c1bb !important;
+    background-color:#fff !important;
+    border: 2px solid #82c1bb !important;
+}
+#services_info #btn a{
+    text-decoration: none !important;
+    color: inherit;
+}
 #query{
     width: 100%;
     height: 10rem;

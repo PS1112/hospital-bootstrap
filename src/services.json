@@ -3,14 +3,14 @@
         "id":1,
         "name":"ICU",
         "price":500,
-        "description":"The Intensive Care Unit (ICU) is a separate, self-contained area within a medical facility, equipped with high-tech specialised facilities designed for close monitoring, rapid intervention and often extended treatment of patients with acute organ dysfunction.",
-        "image":"https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8SUNVfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        "description":"A separate area in a medical facility, equipped with high-tech facilities for close monitoring.",
+        "image":"https://images.unsplash.com/photo-1549560826-4b7bfe23f37b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aWN1fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
         "id":2,
         "name":"ENT",
         "price":500,
-        "description":"ENTs deal with anything that has to do with the head, neck, and ears in adults and children.",
+        "description":"ENTs deal with anything that has to do with the head, neck, and ears in all the patients either adults or children.",
         "image":"https://media.istockphoto.com/id/1368169092/photo/female-pediatrician-looking-at-ear-of-little-girl-using-otoscope-in-clinic.jpg?b=1&s=170667a&w=0&k=20&c=DC-vf-lYOC99rREVJmxIjTiWNaTVHuPIpIXjaEQL8eY="
     },
     {
@@ -32,6 +32,34 @@
         "name":"Laboratory",
         "price":500,
         "description":"healthcare facilities providing a wide range of laboratory procedures which aid the physicians in carrying out the diagnosis, treatment, and management of patients.",
-        "image":"https://images.unsplash.com/photo-1657778752032-6cfb715e616d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGxhYm9yYXRvcnl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        "image":"https://images.unsplash.com/photo-1579154204601-01588f351e67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFib3J0b3J5fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id":6,
+        "name":"Rehabilitation services ",
+        "price":500,
+        "description":"services that help a person regain physical, mental, and/or cognitive abilities that have been lost or impaired as a result of disease, injury, or treatment.",
+        "image":"https://media.istockphoto.com/id/1346575330/photo/young-hispanic-physioterapist-woman-make-back-rehab-treatment-to-man-at-the-clinic.jpg?b=1&s=170667a&w=0&k=20&c=CrLhGzS0IkrL10nQfhs5rlW-b1tzdTyi9ZyQZ1IyekM="
+    },
+    {
+        "id":7,
+        "name":"Home nursing services",
+        "price":500,
+        "description":"Nurses provide multidimensional care to patients of all ages. Home health care is a cost efficient way to deliver quality care in client's home.",
+        "image":"https://media.istockphoto.com/id/1358249291/photo/shot-of-an-attractive-young-nurse-helping-her-senior-patient-brush-his-teeth-in-the-bathroom.jpg?b=1&s=170667a&w=0&k=20&c=-4c0Eaddarnl_jGPs-tQ9Jy74p1HHl_JeovTh6RIt2E="
+    },
+    {
+        "id":8,
+        "name":"surgical services",
+        "price":500,
+        "description":"professional services necessarily and directly performed by a Physician in the treatment of an Injury or illness requiring surgical procedures.",
+        "image":"https://images.unsplash.com/photo-1571772996211-2f02c9727629?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3VyZ2VyeXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id":9,
+        "name":"Mental health care",
+        "price":500,
+        "description":"services devoted to the treatment of mental illnesses and the improvement of mental health in people with mental disorders or problems",
+        "image":"https://media.istockphoto.com/id/1350747996/photo/therapist-meeting-with-a-client.jpg?b=1&s=170667a&w=0&k=20&c=ume-O3yz7kb307UXrVXvkBvOmbW7gH218ZozmCxsous="
     }
 ]

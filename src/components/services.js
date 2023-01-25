@@ -10,9 +10,9 @@ export default class services extends Component {
   render() {
     return (
       <>
-      <div className='container'>
+      <div className='container-fluid text-center' style={{color:"#1ab7a8"}}>
+        <p className='h1 m-5'>All services we offer:</p>
       <div id='parent'>
-        
           <Facilities keyfacilities={this.state.all_facilities}/>
         </div>
         

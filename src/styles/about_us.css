@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 #child{
-    display: flex;
     height: 15rem;
-    align-items: center;
 }
 #location{
     display: flex;
@@ -19,7 +17,4 @@
 #mail{
     display: flex;
     flex-direction: column;
-}
-#map{
-    width: 100vw;
 }
