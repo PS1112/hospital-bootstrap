@@ -5,10 +5,10 @@ export default function About_us() {
   return (
     <>
     <div id='parent'className=' container-fluid text-center'>
-      <span className='h1'>&nbsp;Get in touch with us &nbsp;</span>
+      <p className='h1 mt-5'>&nbsp;Get in touch with us &nbsp;</p>
       <div id='child' className=' row align-items-center' >
-      <div id='location'className='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ' >
-      <span className='h3'>Location</span>
+      <div id='location'className='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  ' >
+      <span className='h3 '>Location</span>
       <span className='h5'><a href='https://goo.gl/maps/xVWLP39Jk8gcB3DJA' itemProp='location'>Industrial Area Phase, 2, Ram Darbar,<br/> Chandigarh, 160002 </a></span>
       </div>
       <div id='phone' className='col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 '>

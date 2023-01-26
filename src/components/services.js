@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// implementation of JSON using state.
 import Facilities from './facilities';
 import JSON from "../services.json";
 import '../styles/services.css'
@@ -22,3 +23,4 @@ export default class services extends Component {
     )
   }
 }
+

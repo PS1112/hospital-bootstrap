@@ -13,7 +13,8 @@ export default function Footer() {
   <li> Dr Karuna </li>
   <li> Dr KVS Rana </li>
   <li> Dr Yashlesh Tyagi </li>
-  <li> Dr Bhushan Mittal</li>
+  <li> Dr Payal Kapoors </li>
+  <li> Dr Anmol Gupta </li>
   </ul>
 </div>
 <div id='row2' className='col-xs-6 col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6'>

@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"Dr KVS Rana",
+        "speciality":"Surgery",
+        "experience":"25 Years",
+        "image":"https://media.istockphoto.com/id/1298800629/photo/portrait-of-confident-male-doctor-looking-at-camera.jpg?b=1&s=170667a&w=0&k=20&c=zkroAYchljsj6i954m5Ct6aqL_KJDA-juu03BMWDF1c="
+    },
+    {
+        "id":2,
+        "name":"Dr Awadesh Tripathi",
+        "speciality":"ENT",
+        "experience":"8 Years",
+        "image":"https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZG9jdG9yfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+    },
+    {
+        "id":3,
+        "name":"Dr Payal Kapoor",
+        "speciality":500,
+        "experience":"6 Years",
+        "image":"https://media.istockphoto.com/id/1203928517/photo/medical-concept-of-asian-beautiful-female-doctor-in-white-coat-with-stethoscope-waist-up.jpg?b=1&s=170667a&w=0&k=20&c=lX84BogjCK_N04pKzX78f82jhXbFBTB60wa-_0q4e_w="
+    },
+    {
+        "id":4,
+        "name":"Dr Yashlesh Tyagi",
+        "speciality":500,
+        "experience":"26 Years",
+        "image":"https://media.istockphoto.com/id/177373093/photo/indian-male-doctor.jpg?b=1&s=170667a&w=0&k=20&c=4vJU9veI1IGehy6_9oa9I30at0C9sWsLzTIKeppWf30="
+    },
+    {
+        "id":5,
+        "name":"DR. Karuna",
+        "speciality":"Psychology",
+        "experience":"9 years",
+        "image":"https://media.istockphoto.com/id/1382523391/photo/female-doctor-poses-for-portrait-in-lobby-of-medical-practice.jpg?b=1&s=170667a&w=0&k=20&c=Q9wptUeHQwCCYc4CIqZl3jjmtKBlqwS0HQot4s6NLwo="
+    },
+    {
+        "id":6,
+        "name":"Dr Anmol Gupta",
+        "speciality":"Rehab",
+        "experience":"5 Years",
+        "image":"https://plus.unsplash.com/premium_photo-1661741237849-3d4b81808936?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGluZGlhbiUyMGRvY3RvcnN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    }
+]

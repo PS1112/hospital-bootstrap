@@ -35,7 +35,7 @@ export default function Header() {
           <Link to="home"><span>&nbsp;&nbsp;Home&nbsp;&nbsp;</span></Link>
           </li>
           <li className="nav-item pb-3">
-          <Link to="departments"><span>&nbsp;&nbsp;Departments&nbsp;&nbsp;</span></Link>
+          <Link to="departments"><span>&nbsp;&nbsp;Doctors&nbsp;&nbsp;</span></Link>
           </li>
           <li className='nav-item pb-3'>
             <Link to="services"><span>&nbsp;&nbsp;Services&nbsp;&nbsp;</span></Link></li>
