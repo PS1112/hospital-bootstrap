@@ -4,7 +4,7 @@ import '../styles/departments.css'
 const Doctors = (props) =>{
     return(
     <>
-    <div id='doctors' className='mt-4 mb-5'>
+    <div id='doctors' className=' d-flex flex-column justify-content-center align-items-center flex-wrap gap-3 mt-4 mb-5'>
     {
   props.doc.map( (item) => (
 <div id='card'className='p-3' >
