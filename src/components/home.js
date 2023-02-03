@@ -34,10 +34,10 @@ export default function Home() {
   const [fname,setFname] = useState(" ");
   const [sname,setSname] = useState(" ");
   const [phone,setPhone] = useState("0");
-  const [gender, setGender] = useState(" ");
+  const [gender,setGender] = useState(" ");
   const [address,setAddress] = useState(" ");
   const [apnDate,setApnDate] = useState("1");
-  const [time, setTime] = useState(" ");
+  const [time,setTime] = useState(" ");
   const [service,setService] = useState(" ");
 
   const handleSubmit = async(event)=>{
@@ -67,9 +67,9 @@ export default function Home() {
       }
       handleClose()
   }
-  const handleChange = (e) => {
-    setGender(e.target.value)
-  }
+  // const handleChange = (e) => {
+  //   setService(e.target.value)
+  // }
   return (
     <>
     <div id='self_made_caraousel' className='col-xs-12 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
@@ -115,10 +115,10 @@ export default function Home() {
         <Form.Group as={Col} controlid="formGridGender">
           <Form.Label>Gender</Form.Label>
           <Form.Select defaultValue="Choose Your Gender">
-            <option value="choose"onChange={(e) => { setGender(e.target.value) }}>Choose Your Gender</option>
-            <option value="Male" onChange={(e) => { setGender(e.target.value) }}>Male</option>
-            <option value="Female"onChange={(e) => { setGender(e.target.value) }}>Female</option>
-            <option value="Others"onChange={(e) => { setGender(e.target.value) }}>Others</option>
+            <option value="choose"onChange={(e) => {setGender(e.target.value)}}>Choose Your Gender</option>
+            <option value="Male" onChange={(e) => {setGender(e.target.value)}}>Male</option>
+            <option value="Female"onChange={(e) => {setGender(e.target.value)}}>Female</option>
+            <option value="Others"onChange={(e) => {setGender(e.target.value)}}>Others</option>
           </Form.Select>
         </Form.Group>
       </Row>
@@ -145,14 +145,14 @@ export default function Home() {
           <Form.Label>Choose Service</Form.Label>
           <Form.Select defaultValue="pick one of the following">
             <option>pick one of the following</option>
-            <option value="ICU" onChange={(e) => { handleChange(e) }}>ICU</option>
-            <option value="ENT" onChange={(e) => { handleChange(e) }}>ENT</option>
-            <option value="Vaccination" onChange={(e) => { handleChange(e) }}>Vaccination</option>
-            <option value="Laboratory"  onChange={(e) => { handleChange(e) }}>Laboratory</option>
-            <option value="Rehabilitation services and physical therapy"  onChange={(e) => { handleChange(e) }}>Rehabilitation services and physical therapy</option>
-            <option value="General and specialty surgical services"  onChange={(e) => { handleChange(e) }}>General and specialty surgical services</option>
-            <option value="Home nursing services"  onChange={(e) => { handleChange(e) }}>Home nursing services</option>
-            <option value="Mental health care"  onChange={(e) => { handleChange(e) }}>Mental health care</option>
+            <option value="ICU" onChange={(e) => {setService(e.target.value)}}>ICU</option>
+            <option value="ENT" onChange={(e) => {setService(e.target.value)}}>ENT</option>
+            <option value="Vaccination" onChange={(e) => {setService(e.target.value)}}>Vaccination</option>
+            <option value="Laboratory" onChange={(e) => {setService(e.target.value)}}>Laboratory</option>
+            <option value="Rehabilitation services and physical therapy" onChange={(e) => {setService(e.target.value)}}>Rehabilitation services and physical therapy</option>
+            <option value="General and specialty surgical services" onChange={(e) => {setService(e.target.value)}}>General and specialty surgical services</option>
+            <option value="Home nursing services" onChange={(e) => {setService(e.target.value)}}>Home nursing services</option>
+            <option value="Mental health care" onChange={(e) => {setService(e.target.value)}}>Mental health care</option>
             </Form.Select>
          </Form.Group>
          
