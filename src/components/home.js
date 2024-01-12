@@ -24,7 +24,7 @@ export default function Home() {
       if (!authToken) {
           navigate('/')
       }
-  },[]);
+  }, []);
 
   const [show, setShow] = useState(false);
 
