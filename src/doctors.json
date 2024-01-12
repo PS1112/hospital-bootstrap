@@ -16,14 +16,14 @@
     {
         "id":3,
         "name":"Dr Payal Kapoor",
-        "speciality":500,
+        "speciality":"Gastroenterology",
         "experience":"6 Years",
         "image":"https://media.istockphoto.com/id/1203928517/photo/medical-concept-of-asian-beautiful-female-doctor-in-white-coat-with-stethoscope-waist-up.jpg?b=1&s=170667a&w=0&k=20&c=lX84BogjCK_N04pKzX78f82jhXbFBTB60wa-_0q4e_w="
     },
     {
         "id":4,
         "name":"Dr Yashlesh Tyagi",
-        "speciality":500,
+        "speciality":"Cardiology",
         "experience":"26 Years",
         "image":"https://media.istockphoto.com/id/177373093/photo/indian-male-doctor.jpg?b=1&s=170667a&w=0&k=20&c=4vJU9veI1IGehy6_9oa9I30at0C9sWsLzTIKeppWf30="
     },

@@ -3,13 +3,13 @@ import { Routes, Route, useNavigate} from 'react-router-dom';
 import AuthForm from './components/form';
 import Header from './components/header';
 import Footer from './components/footer';
-import About_us from './components/about_us';
+import AboutUs from './components/about_us';
 import Departments from './components/departments';
 import Home from './components/home';
 import Services from'./components/services';
 import { toast, ToastContainer } from 'react-toastify';
 import { useState, useEffect } from 'react';
-import firebase_config from './components/firebase_config';
+// import firebase_config from './components/firebase_config';
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -78,10 +78,10 @@ export default function App() {
                                 setPassword={setPassword}
                                 handleAction={()=>handleAction(2)}/>}/>
       <Route path='home' element={<Home/>}/>
-      <Route path='about_us' element={<About_us/>}/>
+      <Route path='about_us' element={<AboutUs/>}/>
       <Route path='departments' element={<Departments/>}/>
       <Route path='services' element={<Services/>}/>
-      <Route path='home/about_us' element={<About_us/>}/>
+      <Route path='home/about_us' element={<AboutUs/>}/>
       <Route path='home/services' element={<Services/>}/>
     </Routes>
 {
